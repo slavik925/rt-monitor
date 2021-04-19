@@ -24,6 +24,7 @@ export async function getEdgeProps() {
     props: {
       sites: siteChecks,
     },
+    revalidate: 0
   }
 }
 
